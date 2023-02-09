@@ -35,3 +35,6 @@ The script used here would copy the permissions form one file to another file
 
 ## Task 11 (permissions for directories)
 The script used here would add execute permission to all subdirectories for the owner, group and other users
+
+## Task 12 (create a directory with permissions)
+The script used here would create a directory and assign some permissions
