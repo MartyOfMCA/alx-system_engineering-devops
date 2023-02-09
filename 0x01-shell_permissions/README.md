@@ -38,3 +38,6 @@ The script used here would add execute permission to all subdirectories for the 
 
 ## Task 12 (create a directory with permissions)
 The script used here would create a directory and assign some permissions
+
+## Task 13 (change group)
+The script used here would change the group owner for a file
