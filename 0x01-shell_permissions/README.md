@@ -23,3 +23,6 @@ The script used here would add multiple permissions to a file
 
 ## Task 7 (permissions to everybody)
 The script used here would add execution permission to the owner, group owner and other users of a file
+
+## Task 8 (different permissions)
+The script used here would set no permissions to the owner and group but set all the permissions to other users
