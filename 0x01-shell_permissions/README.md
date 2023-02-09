@@ -32,3 +32,6 @@ The script used here would set the permission for a file to: user has full permi
 
 ## Task 10 (copy file mode to another file)
 The script used here would copy the permissions form one file to another file
+
+## Task 11 (permissions for directories)
+The script used here would add execute permission to all subdirectories for the owner, group and other users
