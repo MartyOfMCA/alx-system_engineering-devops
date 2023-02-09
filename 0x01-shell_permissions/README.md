@@ -11,3 +11,6 @@ The script used here would show the groups the current user belongs to
 
 ## Task 3 (change file ownership)
 The script used here would change the ownership to a file to a new user
+
+## Task 4 (create an empty file)
+The script used here would create an empty file
