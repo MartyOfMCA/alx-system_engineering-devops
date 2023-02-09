@@ -17,3 +17,6 @@ The script used here would create an empty file
 
 ## Task 5 (change file permissions)
 The script used here would add execute permission to the owner of a file
+
+## Task 6 (multiple permissions)
+The script used here would add multiple permissions to a file
