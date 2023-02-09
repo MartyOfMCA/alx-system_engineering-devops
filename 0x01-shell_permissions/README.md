@@ -26,3 +26,6 @@ The script used here would add execution permission to the owner, group owner an
 
 ## Task 8 (different permissions)
 The script used here would set no permissions to the owner and group but set all the permissions to other users
+
+## Task 9 (change more permission)
+The script used here would set the permission for a file to: user has full permission - group has read and execute permission and other users having write and execute permission
