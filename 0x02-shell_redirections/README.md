@@ -38,3 +38,6 @@ The script counts the number of directories and subdirectories in a given direct
 
 ## What’s new
 The script displays the 10 latest files in the directory
+
+## Being unique is better than being perfect
+The script takes a list of words as input and prints only words that appear exactly once
