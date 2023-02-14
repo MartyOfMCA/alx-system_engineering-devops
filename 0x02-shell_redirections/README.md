@@ -5,3 +5,6 @@ This script prints the word "Hello World" followed by a new line to the standard
 
 ## Task 1 - Confused smiley
 This script displays a confused smiley
+
+## Task 2 - Let's display a file
+Ths script display the content of the /etc/passwd file
