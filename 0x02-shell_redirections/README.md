@@ -10,4 +10,4 @@ This script displays a confused smiley
 Ths script display the content of the /etc/passwd file
 
 ## Task 3 - What about 2?
-The script uses the less command to view contents from two directories
+The script uses the less command to view contents from two files
