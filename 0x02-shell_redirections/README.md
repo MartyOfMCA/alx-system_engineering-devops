@@ -44,3 +44,6 @@ The script takes a list of words as input and prints only words that appear exac
 
 ## It must be in that file
 The script displays lines containing the pattern root in a file
+
+## Count that word
+The script number of lines that contain the pattern “bin” in the file
