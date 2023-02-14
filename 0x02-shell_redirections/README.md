@@ -26,3 +26,6 @@ The script uses the echo command to create a file with the escape character to a
 
 ## Save current state of directory
 The script writes the results of ls -la command to a file
+
+## Duplicate last line
+The script duplicates the last line in a file
