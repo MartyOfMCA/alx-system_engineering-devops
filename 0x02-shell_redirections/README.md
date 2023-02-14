@@ -53,3 +53,6 @@ The script display lines containing the pattern “root” and 3 lines after the
 
 ## I hate bins
 Display lines in a file without the given pattern
+
+## Letters only please
+Display lines starting with a letter
