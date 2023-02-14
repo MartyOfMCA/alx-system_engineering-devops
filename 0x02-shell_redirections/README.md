@@ -35,3 +35,6 @@ The script deletes fines with .js extension and it's subfolders
 
 ## Don't just count your directories, make your directories count
 The script counts the number of directories and subdirectories in a given directory
+
+## What’s new
+The script displays the 10 latest files in the directory
