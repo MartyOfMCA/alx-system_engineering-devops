@@ -47,3 +47,6 @@ The script displays lines containing the pattern root in a file
 
 ## Count that word
 The script number of lines that contain the pattern “bin” in the file
+
+## What's next?
+The script display lines containing the pattern “root” and 3 lines after them in a file
