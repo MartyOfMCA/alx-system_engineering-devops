@@ -29,3 +29,6 @@ The script writes the results of ls -la command to a file
 
 ## Duplicate last line
 The script duplicates the last line in a file
+
+## No more javascript
+The script deletes fines with .js extension and it's subfolders
