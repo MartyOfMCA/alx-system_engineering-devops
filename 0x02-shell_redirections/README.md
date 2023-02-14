@@ -14,3 +14,6 @@ The script uses the less command to view contents from two files
 
 ## Task 4 - Last lines of a file
 The script uses the tail command with the -n option to display the last 10 lines for a file
+
+## I'd prefer the first ones actually
+The script uses the head command with the -n option to display the first 10 lines for a file
