@@ -23,3 +23,6 @@ The script uses the head and tail commands with the help of the pipeline to disp
 
 ## It is a good file that cuts iron without making a noise
 The script uses the echo command to create a file with the escape character to allow the file nae with some symbols
+
+## Save current state of directory
+The script writes the results of ls -la command to a file
