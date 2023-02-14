@@ -41,3 +41,6 @@ The script displays the 10 latest files in the directory
 
 ## Being unique is better than being perfect
 The script takes a list of words as input and prints only words that appear exactly once
+
+## It must be in that file
+The script displays lines containing the pattern root in a file
