@@ -65,3 +65,6 @@ This script removes some characters from a file
 
 ## esreveR
 This script reverses a string input
+
+##  DJ Cut Killer
+This script lists all the users and their home directory sorting the data based on the users
