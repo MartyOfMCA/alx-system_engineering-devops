@@ -59,3 +59,6 @@ Display lines starting with a letter
 
 ## A to Z
 Replace characters in an input file with other characters
+
+## Without C, you would live in hiago
+This script removes some characters from a file
