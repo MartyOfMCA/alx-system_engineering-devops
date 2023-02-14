@@ -17,3 +17,6 @@ The script uses the tail command with the -n option to display the last 10 lines
 
 ## I'd prefer the first ones actually
 The script uses the head command with the -n option to display the first 10 lines for a file
+
+## Line #2
+The script uses the head and tail commands with the help of the pipeline to display only the third line in a file
