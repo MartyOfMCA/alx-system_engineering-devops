@@ -62,3 +62,6 @@ Replace characters in an input file with other characters
 
 ## Without C, you would live in hiago
 This script removes some characters from a file
+
+## esreveR
+This script reverses a string input
