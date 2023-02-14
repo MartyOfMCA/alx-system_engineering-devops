@@ -20,3 +20,6 @@ The script uses the head command with the -n option to display the first 10 line
 
 ## Line #2
 The script uses the head and tail commands with the help of the pipeline to display only the third line in a file
+
+## It is a good file that cuts iron without making a noise
+The script uses the echo command to create a file with the escape character to allow the file nae with some symbols
