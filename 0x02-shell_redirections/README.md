@@ -71,3 +71,6 @@ This script lists all the users and their home directory sorting the data based 
 
 ## Empty casks make the most noise
 Finds all empty files and directories in the current directory and all sub-directories
+
+## A gif is worth ten thousand words
+Lists all the files with a .gif extension in the current directory and all its sub-directories
