@@ -44,3 +44,6 @@ Prints a number with two decimal places, followed by a new line
 
 ## Decimal to Hexadecimal
 Convert a number from base 10 to a hexadecimal
+
+## Everyone is a proponent of strong encryption
+Script that encodes and decodes text using the rot13 encryption
