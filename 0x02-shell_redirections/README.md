@@ -68,3 +68,6 @@ This script reverses a string input
 
 ##  DJ Cut Killer
 This script lists all the users and their home directory sorting the data based on the users
+
+## Empty casks make the most noise
+Finds all empty files and directories in the current directory and all sub-directories
