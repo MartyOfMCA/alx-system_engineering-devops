@@ -31,4 +31,7 @@ Prints the result of the addition of 128 with the value stored in an environment
 Print the result after dividing one number by another
 
 ## Love is anterior to life, posterior to death, initial of creation, and the exponent of breath
-Display the result of one number raised to the power of another number
+Display the result of one number raised to the power of another numberThere are 10 types of people in the world -- Those who understand binary, and those who don't
+
+## There are 10 types of people in the world -- Those who understand binary, and those who don't
+Convert a number from the base 2 to base 10
