@@ -38,3 +38,6 @@ Convert a number from the base 2 to base 10
 
 ## Combination
 Print possible combination of two letters except oo
+
+## Floats
+Prints a number with two decimal places, followed by a new line
