@@ -20,3 +20,6 @@ Lists all local variables and environment variables, and functions
 
 ## Local variable
 Create a new local variable
+
+## Global variable
+Create a new global variable
