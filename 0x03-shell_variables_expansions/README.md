@@ -29,3 +29,6 @@ Prints the result of the addition of 128 with the value stored in an environment
 
 ## Divide and rule
 Print the result after dividing one number by another
+
+## Love is anterior to life, posterior to death, initial of creation, and the exponent of breath
+Display the result of one number raised to the power of another number
