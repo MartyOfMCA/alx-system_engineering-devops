@@ -11,3 +11,6 @@ This script adds a directory to the the last directory the shell looks into when
 
 ## If the path be beautiful, let us not ask where it leads
 This script count the number of directories in the PATH
+
+## Global variables
+Print all environment variables
