@@ -35,3 +35,6 @@ Display the result of one number raised to the power of another numberThere are 
 
 ## There are 10 types of people in the world -- Those who understand binary, and those who don't
 Convert a number from the base 2 to base 10
+
+## Combination
+Print possible combination of two letters except oo
