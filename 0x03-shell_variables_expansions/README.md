@@ -41,3 +41,6 @@ Print possible combination of two letters except oo
 
 ## Floats
 Prints a number with two decimal places, followed by a new line
+
+## Decimal to Hexadecimal
+Convert a number from base 10 to a hexadecimal
