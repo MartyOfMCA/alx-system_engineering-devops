@@ -17,3 +17,6 @@ Print all environment variables
 
 ## Local variables
 Lists all local variables and environment variables, and functions
+
+## Local variable
+Create a new local variable
