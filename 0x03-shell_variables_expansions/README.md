@@ -26,3 +26,6 @@ Create a new global variable
 
 ## Every addition to true knowledge is an addition to human power
 Prints the result of the addition of 128 with the value stored in an environment variable
+
+## Divide and rule
+Print the result after dividing one number by another
