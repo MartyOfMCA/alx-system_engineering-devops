@@ -14,3 +14,6 @@ This script count the number of directories in the PATH
 
 ## Global variables
 Print all environment variables
+
+## Local variables
+Lists all local variables and environment variables, and functions
