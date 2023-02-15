@@ -74,3 +74,6 @@ Finds all empty files and directories in the current directory and all sub-direc
 
 ## A gif is worth ten thousand words
 Lists all the files with a .gif extension in the current directory and all its sub-directories
+
+## Acrostic
+Decodes acrostics that use the first letter of each line
