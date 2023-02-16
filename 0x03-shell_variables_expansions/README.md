@@ -50,3 +50,6 @@ Script that encodes and decodes text using the rot13 encryption
 
 ## The eggs of the brood need to be an odd number
 Prints every other line from the input, starting with the first line
+
+## I'm an instant star. Just add water and stir
+ adds the two numbers stored in the environment variables and prints the result
