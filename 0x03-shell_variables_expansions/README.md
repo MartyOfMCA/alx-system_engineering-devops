@@ -47,3 +47,6 @@ Convert a number from base 10 to a hexadecimal
 
 ## Everyone is a proponent of strong encryption
 Script that encodes and decodes text using the rot13 encryption
+
+## The eggs of the brood need to be an odd number
+Prints every other line from the input, starting with the first line
