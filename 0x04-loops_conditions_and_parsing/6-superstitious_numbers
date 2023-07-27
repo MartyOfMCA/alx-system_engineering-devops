@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Print numbers ranging from 1 through 20 printing
+# with appropriate messages
+
+index=1
+times_to_print=20
+
+while (("$index" <= "$times_to_print"));
+do
+	echo "$index"
+
+	case "$index" in
+		4)
+			echo "bad luck from China"
+			;;
+		9)
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "bad luck from Italy"
+			;;
+	esac
+
+	index=$((index + 1));
+done;
