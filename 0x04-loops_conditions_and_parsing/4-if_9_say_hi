@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Print Best School 10 times
+
+text="Best School"
+times_to_print=10
+index=0
+
+while (("$index" < "$times_to_print"));
+do
+	echo "$text"
+	if [[ "$index" -eq 8 ]]
+	then
+		echo "Hi"
+	fi
+
+	index=$((index + 1));
+done
