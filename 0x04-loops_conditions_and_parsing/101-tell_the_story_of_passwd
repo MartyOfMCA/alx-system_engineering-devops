@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Prints information extracted for user accounts
+
+file_name="/etc/passwd"
+
+while IFS=":" read -r username password u_id g_id u_id_info home_dir shell;
+do
+	echo "The user $username is part of the $g_id gang, lives in"\
+	"$home_dir and rides $shell. $u_id's place is protected by the passcode"\
+	"$password, more info about the user here: $u_id_info";
+done < "$file_name";
