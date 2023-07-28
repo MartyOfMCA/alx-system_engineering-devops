@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Kills any process with the name ending
+# infinity_and_beyond
+
+pkill -f infinity_and_beyond
