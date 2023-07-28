@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Prints the IP address and HTTP status code for
+# every request to the Apache server
+
+awk '{print $1, $9}' apache-access.log | sort | uniq -c | sort -rn
