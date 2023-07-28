@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Prints the literal, To infinity and beyond, and,
+# I am invincible, when the SIGTERM signal is
+# received, infinitely
+
+trap 'echo "I am invincible!!!"' 15
+for (( ; ; ));
+do
+	echo "To infinity and beyond"
+	sleep 2;
+done;
