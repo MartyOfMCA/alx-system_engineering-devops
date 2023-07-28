@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Immediately Kills a process that ignores termination
+# from other processes
+
+kill -9 "$(pgrep -f highlander)"
