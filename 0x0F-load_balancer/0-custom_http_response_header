@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+# Configure a new server to server requests.
+
+# Install nginx (configure default index page and a default error 404 page)
+sudo apt update -y
+sudo apt install nginx -y
+echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
+
+# Configure nginx configration file
+echo "server {
+
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	root /var/www/html/;
+
+	index index.html index.htm index.nginx-debian.html;
+
+	error_page 404 /404.html;
+
+	server_name _;
+
+	location / {
+		add_header X-Served-By \$hostname;
+		try_files \$uri \$uri/ =404;
+	}
+
+	location /404.html {
+		root /var/www/html;
+		internal;
+	}
+
+	location /redirect_me {
+		return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+	}
+}" | sudo tee /etc/nginx/sites-available/default
+
+# Restart the nginx server for changes to take effect
+sudo service nginx restart
