@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Install HAProxy then configures the load
+# balancer server
+
+# Install HAProxy 2.8
+sudo apt update -y
+sudo apt install haproxy -y
+
+# Configure HAProxy to send traffic to my two servers
+echo "frontend requests
+	bind *:80
+	default_backend web-servers
+
+backend web-servers
+	balance roundrobin
+	server 233442-web-01 100.25.149.133:80 check
+	server 233442-web-02 100.24.240.243:80 check
+" | sudo tee -a /etc/haproxy/haproxy.cfg
+
+sudo service haproxy restart
