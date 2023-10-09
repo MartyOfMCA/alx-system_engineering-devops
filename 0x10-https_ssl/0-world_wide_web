@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Prints details about subdomains. Takes a domain
+# and a subdomain whose details should be retrieved.
+domain=$1
+subdomain=$2
+
+extract() {
+	dig "$1" | awk '/;; ANSWER SECTION:/{ isfound=1 ; next }
+	isfound == 1 {print "The subdomain " substr(split($1, a, ".")a[1], 2) " is a " $4 " record and points to " $5; exit}'
+}
+
+if (("$#" == 1))
+then
+	subdomains=("www" "lb-01" "web-01" "web-02")
+	for item in "${subdomains[@]}"
+	do
+		extract "$item.$domain"
+	done
+else
+	extract "$subdomain.$domain"
+fi
