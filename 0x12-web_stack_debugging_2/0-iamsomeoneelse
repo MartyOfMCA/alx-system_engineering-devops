@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Run the whoami command for the given user
+if (("$#" == 1))
+then
+	sudo -u "$1" whoami
+fi
