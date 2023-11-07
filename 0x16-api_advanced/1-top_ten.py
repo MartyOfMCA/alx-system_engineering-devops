@@ -15,7 +15,7 @@ def top_ten(subreddit):
     subreddit : string
         The subreddit to query
     """
-    with get(f"https://www.reddit.com/r/{subreddit}/hot.json?limit=9",
+    with get(f"https://www.reddit.com/r/{subreddit}/hot.json?limit=10",
              allow_redirects=False) as res:
         if (res.status_code == 200):
             for item in res.json()["data"]["children"]:
